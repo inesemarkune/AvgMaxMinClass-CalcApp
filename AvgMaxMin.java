@@ -20,7 +20,7 @@ public class AvgMaxMin {
 		//calculate
 		public void calculateAvg() {
 			int sum = 0;
-			for(int i = 1; i < numbers.length; i++ ) {
+			for(int i = 0; i < numbers.length; i++ ) {
 				//to calculate sum, we update the previous value of sum by adding a new element located at the index[i]
 				sum = sum + numbers[i];
 			}
